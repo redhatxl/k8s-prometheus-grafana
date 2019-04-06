@@ -7,4 +7,13 @@
 admin/admin
 
 
+# heapster
+```
+kubectl create -f metrics-server  
+kubectl create -f heapster-influxdb-grafana
+
+[root@master k8s-prometheus-grafana]# kubectl top node
+NAME     CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master   150m         7%     1078Mi          62%  
+```
 
