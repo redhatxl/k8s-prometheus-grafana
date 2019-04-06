@@ -5,6 +5,3 @@
 
 # grafana 
 admin/admin
-
-
-
