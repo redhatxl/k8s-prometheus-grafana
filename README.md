@@ -6,6 +6,17 @@
 # grafana 
 admin/admin
 
+# grafana nonPersistence
+```
+kubectl create -f k8s-prometheus-grafana/prometheus-grafana/grafana/
+```
+
+# grafana persistence
+```
+kubectl create -f k8s-prometheus-grafana/prometheus-grafana/grafana/
+kubectl apply -f k8s-prometheus-grafana/prometheus-grafana/grafana/persistence/
+```
+
 
 # heapster
 ```
